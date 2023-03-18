@@ -14,7 +14,7 @@ import { AuthGuard } from '@nestjs/passport';
 import { EmpresaDTO } from './dto/empresa.dto';
 import { EmpresaUpdateDTO } from './dto/empresa.update.dto';
 import { EmpresaService } from './empresa.service';
-@Controller('api/v1/empresas')
+@Controller('api/hub/empresas')
 export class CompanyController {
   constructor(private readonly empresaService: EmpresaService) {}
   @UseGuards(AuthGuard('jwt'))

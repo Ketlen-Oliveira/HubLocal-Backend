@@ -16,7 +16,7 @@ import { CreateLocationDTO } from './dto/locais.dto';
 import { UpdateLocationDTO } from './dto/locais.update.dto';
 import { LocaisService } from './locais.service';
 
-@Controller('api/v1/locais')
+@Controller('api/hub/locais')
 @UseGuards(AuthGuard('jwt'))
 export class LocaisController {
   constructor(private readonly locaisService: LocaisService) {}

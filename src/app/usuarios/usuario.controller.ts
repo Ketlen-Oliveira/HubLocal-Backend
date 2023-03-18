@@ -15,7 +15,7 @@ import { UsuarioDTO } from './dto/usuario.dto';
 import { UsuarioUpdateDTO } from './dto/usuario.update.dto';
 import { UsuariosService } from './usuario.service';
 
-@Controller('api/v1/usuarios')
+@Controller('api/hub/usuarios')
 export class UsuariosController {
   constructor(private readonly usuariosService: UsuariosService) {}
   @Post('add')
