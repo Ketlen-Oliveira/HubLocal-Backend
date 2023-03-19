@@ -1,8 +1,10 @@
+> [Print das execuções do projeto](https://drive.google.com/drive/folders/1MUY6ad7EpryPf9Xf2WMWcHSFyTFumSfg?usp=sharing)
+
 # Teste Novos Devs HubLocal
 
 Objetivo do projeto é realizar operações CRUD de usuários, empresas e de locais pertencentes a cada empresa. Para realizar essas funcionalidades é preciso que o usuário esteja cadastrado no sistema para poder efetuar login e o token retornado dará acesso as demais aplicabilidades do sistema.
 
-# Linguagem, Framework e tecnologias utilizadas para o desenvolvimento:
+# Tecnologias:
 
 | PostgreSQL
 | pgAdmin 4
@@ -12,18 +14,18 @@ Objetivo do projeto é realizar operações CRUD de usuários, empresas e de loc
 | JWT
 | Passport
 
-# Instruções de instalação:
+# Instruções:
 
 1. Para conseguir rodar o projeto é necessário ter o nodejs e npm instalados nas versões: node - 18.12.1 | npm - 8.19.2
 2. Para o banco de dados, é utilizado o pgAdmin4 e em seguida é preciso criar a database "hubLocal_database" para realizar a conexão com ela, ela deve estar dentro do owner "postgres". O host deve está como "localhost", port: 5432, username "postgres", senha do postgres para conseguir acessar é 1234.
 
 Exemplo de criação da database no pgAdmin:
-CREATE DATABASE hubLocal_database
-WITH
-OWNER = postgres
-ENCODING = 'UTF8'
-CONNECTION LIMIT = -1
-IS_TEMPLATE = False;
+
+| CREATE DATABASE hubLocal_database
+| WITH OWNER = postgres
+| ENCODING = 'UTF8'
+| CONNECTION LIMIT = -1
+| IS_TEMPLATE = False;
 
 3. É necessário realizar o clone do repositório, abrir na IDE, o qual foi utilizado o vscode, abrir um terminal e rodar o comando: 'npm i' para realizar a instalação das dependências.
 
