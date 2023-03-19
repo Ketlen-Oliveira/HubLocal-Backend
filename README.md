@@ -34,7 +34,7 @@ CREATE DATABASE hubLocal_database
 6. Rodar o comando: 'npm i' para realizar a instalação das dependências.
 7. Em seguida, rodar o comando 'npm run start:dev' no terminal para iniciar a aplicação
 8. Sendo esperado não ocorrer nenhum erro, pode-se ser realizado os testes (foi utilizado o postman, por exemplo)
-9. [Rotas utilizadas para Usuarios, Empresas e Locais](https://drive.google.com/drive/folders/1pfZDkudJylVaOm-JiXqpsJpJ_1FwfAnQ?usp=share_link)
+9. [Rotas utilizadas para Usuarios, Empresas e Locais](https://docs.google.com/presentation/d/1Tms_PCiu75A15e5kbATSSFbefBPmFXzMfg525LkxdyM/edit?usp=sharing)
 
    Somente a rota de create new usuario não utiliza o token já que o usuário ainda não está cadastrado no nosso banco de dados.
    Então não precisa do token nos Headers.Authorization, apenas os demais.
