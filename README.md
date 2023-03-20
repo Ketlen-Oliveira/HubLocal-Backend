@@ -38,3 +38,4 @@ CREATE DATABASE hubLocal_database
 
    Somente a rota de create new usuario não utiliza o token já que o usuário ainda não está cadastrado no nosso banco de dados.
    Então não precisa do token nos Headers.Authorization, apenas os demais.
+   [Material utilizado como base](https://www.youtube.com/watch?v=jMprSQlDLGo&list=LL&index=4)
